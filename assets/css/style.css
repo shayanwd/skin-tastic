@@ -1,8 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     font-family: 'Clash Display';
+    line-height: 1em;
     /* font-family: 'Migha'; */
 }
 
@@ -32,19 +33,23 @@ section {
 }
 
 .banner-detail h2 {
-    font-size: 60px;
+    font-size: 83px;
     font-weight: 200;
 }
 
-.banner-detail h2 span {
-    font-size: 90px;
+.banner-detail h3 {
+    font-size: 127px;
     color: #C6E3DC;
     font-weight: 400;
+    font-family: 'Migha';
+    display: block;
 }
 
 .banner-detail p {
     color: #535353;
-    font-size: 19px;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .site-btn a {
@@ -52,6 +57,8 @@ section {
     color: #535353;
     border: 2px solid #707070ae;
     padding: 10px 40px;
+    display: block;
+    width: fit-content;
 }
 
 .site-btn {
@@ -68,41 +75,65 @@ section {
     color: #535353;
     font-weight: 500;
     padding: 20px 0px;
+    font-size: 20px;
 }
 
-.card img {
+.product-card {
+    display: block;
     width: 100%;
-    max-width: 270px;
 }
 
-.card h6 {
+.product-card-img {
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    width: 100%;
+}
+
+.product-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.6s;
+}
+
+.product-card:hover .product-card-img img {
+    transform: scale(1.1);
+}
+
+.product-card h6 {
     color: #535353;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.card p {
+.product-card p {
     color: #535353;
-    font-size: 12px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 25px;
 }
 
-.card a {
+.product-card button {
+    all: unset;
+    cursor: pointer;
     color: #707070;
     text-decoration: none;
     width: 100%;
-    padding: 5px 80px;
+    padding: 12px 5px;
     border: 2px solid#707070;
     text-align: center;
-    transition: 0.2s;
+    transition: 0.3s;
+    font-size: 16px;
 }
 
-.card a:hover {
+.product-card button:hover {
     background-color: #F2D2BD;
-    border: 1px solid #F2D2BD;
+    border: 2px solid #F2D2BD;
 }
 
 .experience-sec {
-    padding: 80px 0px;
+    padding: 80px 0px 20px 0;
 }
 
 .experience-contant-holder {
@@ -111,40 +142,61 @@ section {
     gap: 40px;
 }
 
-.experience-detail h2 {
-    font-size: 60px;
-    font-weight: 200;
+.experience-detail {
+    width: 100%;
 }
 
-.experience-detail h2 span {
-    font-size: 90px;
+.experience-detail h2 {
+    font-size: 83px;
+    font-weight: 200;
+    line-height: 83px;
+}
+
+.experience-detail h3 {
+    font-size: 127px;
     color: #F2D2BD;
-    font-weight: 400;
+    font-weight: 500;
+    line-height: 169px;
+    font-family: 'Migha';
 }
 
 .experience-detail p {
     color: #535353;
-    font-size: 19px;
+    font-size: 22px;
+    line-height: 38px;
+}
+
+.experience-img {
+    width: 100%;
+}
+
+.experience-img img {
+    width: 100%;
 }
 
 .our-featured-contant-holder h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 83px;
     color: #535353;
     font-weight: 300;
 }
 
-.our-featured-contant-holder h1 span {
+.our-featured-contant-holder h3 {
     text-align: center;
-    font-size: 90px;
+    font-size: 127px;
     color: #084434;
     font-weight: 600;
+    font-family: 'Migha';
 }
 
 .our-featured-contant-holder p {
     text-align: center;
     color: #535353;
     font-weight: 400;
+    font-size: 22px;
+    max-width: 940px;
+    width: 100%;
+    margin: 10px auto 0 auto;
 }
 
 .our-featured-sec {
@@ -212,3 +264,39 @@ section {
     font-size: 30px;
     font-weight: 300;
 }
+
+.featured-box-holder {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.featured-box {
+    width: 100%;
+    height: 620px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-box img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.featured-box h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.featured-box a {}
