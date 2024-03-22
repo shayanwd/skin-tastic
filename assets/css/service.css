@@ -1,0 +1,22 @@
+.hydra-fecial-sec-contant-holder {
+    display: flex;
+}
+
+.hydra-fecial-detail {
+    width: 100%;
+    max-width: 500px;
+}
+
+.hydra-fecial-detail h1 {
+    font-size: 60px;
+    color: #F2D2BD;
+    font-weight: 400;
+}
+
+.hydra-fecial-img img {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+}
