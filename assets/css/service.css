@@ -4,19 +4,143 @@
 
 .hydra-fecial-detail {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
+    margin-top: 100px;
 }
 
 .hydra-fecial-detail h1 {
-    font-size: 80px;
+    font-size: 107px;
     color: #F2D2BD;
     font-weight: 400;
     font-family: 'Migha';
 }
 
+.hydra-fecial-detail p {
+    line-height: 30px;
+    color: #535353;
+    font-size: 18px;
+}
+
 .hydra-fecial-img img {
-    margin-right: -300px;
     width: 100%;
     max-width: 600px;
     height: 600px;
+    position: absolute;
+    right: 0;
+}
+
+.hydra-fecial-benefits {
+    padding: 150px 0px;
+}
+
+.hydrafacial-at-a-glance {
+    width: 100%;
+}
+
+.hydrafacial-at-a-glance h1 {
+    font-size: 83px;
+    color: #535353;
+    font-weight: 300;
+}
+
+.hydrafacial-at-a-glance h2 {
+    font-size: 107px;
+    color: #F2D2BD;
+    font-weight: 400;
+    font-family: 'migha';
+}
+
+.hydra-fecial-benefits-holder {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 150px;
+}
+
+.hydrafacial-benefits {
+    width: 100%;
+}
+
+.hydrafacial-benefits h1 {
+    font-size: 83px;
+    color: #535353;
+    font-weight: 300;
+}
+
+.hydrafacial-benefits h2 {
+    font-size: 107px;
+    color: #C6E3DC;
+    font-weight: 400;
+    font-family: 'migha';
+}
+
+.hydrafacial-at-a-glance p {
+    color: #535353;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.hydrafacial-at-a-glance p span {
+    font-weight: 600;
+    color: black;
+}
+
+.hydrafacial-benefits p {
+    color: #535353;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.hydrafacial-benefits p span {
+    font-weight: 600;
+    color: black;
+}
+
+.procedure-after-sec-holder {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 150px;
+}
+
+.procedure-sec {
+    width: 100%;
+}
+
+.aftercare {
+    width: 100%;
+}
+
+.procedure-sec h2 {
+    font-size: 107px;
+    color: #F2D2BD;
+    font-weight: 400;
+    font-family: 'migha';
+}
+
+.procedure-sec p {
+    color: #535353;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.procedure-sec p span {
+    font-weight: 600;
+    color: black;
+}
+
+.aftercare h2 {
+    font-size: 107px;
+    color: #C6E3DC;
+    font-weight: 400;
+    font-family: 'migha';
+}
+
+.aftercare p {
+    color: #535353;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.aftercare p span {
+    font-weight: 600;
+    color: black;
 }
