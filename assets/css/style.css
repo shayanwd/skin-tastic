@@ -56,9 +56,16 @@ section {
     text-decoration: none;
     color: #535353;
     border: 2px solid #707070ae;
-    padding: 10px 40px;
+    padding: 14px 45px;
     display: block;
     width: fit-content;
+    transition: 0.3s;
+}
+
+.site-btn a:hover {
+    background-color: #084434;
+    color: white;
+    border: 2px solid white;
 }
 
 .site-btn {
@@ -231,18 +238,26 @@ section {
 .customer-stories-contant h2 {
     color: #535353;
     font-weight: 300;
-    font-size: 55px;
+    font-size: 83px;
 }
 
 .customer-stories-contant h1 {
     color: #F2D2BD;
     font-weight: 300;
-    font-size: 85px;
+    font-size: 127px;
+    font-family: 'Migha';
 }
 
 .customer-stories-contant {
     width: 100%;
-    max-width: 600px;
+    /* max-width: 600px; */
+}
+
+.customer-stories-contant p {
+    max-width: 785px;
+    font-size: 22px;
+    color: #535353;
+    line-height: 30px;
 }
 
 .cleint-review-holder {
@@ -268,12 +283,15 @@ section {
 .client-review p {
     color: #535353;
     margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 29px;
+    margin-top: 5px;
 }
 
 .client-review h4 {
     color: #535353;
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 27px;
+    font-weight: 400;
 }
 
 .featured-box-holder {
@@ -405,4 +423,71 @@ section {
 
 .swiper-button-disabled {
     opacity: 0.3 !important;
+}
+
+.lets-shine-content-holder {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.shine-img1 {
+    width: 46%;
+    height: fit-content;
+    align-self: end;
+}
+
+.shine-img2 {
+    width: 100%;
+    height: fit-content;
+    align-self: flex-end;
+}
+
+.lets-shine-text {
+    width: fit-content;
+    text-align: center;
+}
+
+.lets-shine-text h3 {
+    font-size: 127px;
+    font-family: 'Migha';
+    color: #084434;
+}
+
+.lets-shine-text h3 span {
+    color: #535353;
+    font-size: 83px;
+    font-weight: 300;
+    font-family: 'Clash Display';
+}
+
+.lets-shine-text a {
+    margin: 0 auto;
+}
+
+.lets-shine-bar {
+    margin: 0 auto;
+    display: block;
+    background-color: #707070;
+    width: 1px;
+    height: 170px;
+}
+
+.book-appointment {
+    width: 100%;
+    background-color: #C6E3DC;
+    padding: 80px 0;
+}
+
+.book-appointment h4 {
+    color: #535353;
+    font-size: 83px;
+    font-weight: 200;
+}
+
+.book-appointment h2 {
+    color: #084434;
+    font-size: 127px;
+    font-family: 'Migha';
 }
