@@ -29,10 +29,6 @@
     right: 0;
 }
 
-.hydra-fecial-benefits {
-    padding: 200px 0px 80px 0px;
-}
-
 .hydrafacial-at-a-glance {
     width: 100%;
 }
@@ -101,6 +97,10 @@
     display: flex;
     justify-content: space-between;
     column-gap: 150px;
+}
+
+.procedure-after-sec {
+    padding: 80px 0px 30px 0px;
 }
 
 .procedure-sec {
@@ -226,4 +226,8 @@
 
 .video-sec iframe {
     width: 100%;
+}
+
+.our-featured-sec-main {
+    padding: 155px 0px 80px 0px;
 }
