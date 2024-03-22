@@ -4,19 +4,230 @@
 
 .hydra-fecial-detail {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
+    margin-top: 100px;
 }
 
 .hydra-fecial-detail h1 {
-    font-size: 80px;
+    font-size: 107px;
     color: #F2D2BD;
     font-weight: 400;
     font-family: 'Migha';
 }
 
+.hydra-fecial-detail p {
+    line-height: 30px;
+    color: #535353;
+    font-size: 18px;
+}
+
 .hydra-fecial-img img {
-    margin-right: -300px;
     width: 100%;
     max-width: 600px;
     height: 600px;
+    position: absolute;
+    right: 0;
+}
+
+.hydrafacial-at-a-glance {
+    width: 100%;
+}
+
+.hydrafacial-at-a-glance h1 {
+    font-size: 83px;
+    color: #535353;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.hydrafacial-at-a-glance h2 {
+    font-size: 107px;
+    color: #F2D2BD;
+    font-weight: 400;
+    font-family: 'migha';
+}
+
+.hydra-fecial-benefits-holder {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 150px;
+}
+
+.hydrafacial-benefits {
+    width: 100%;
+}
+
+.hydrafacial-benefits h1 {
+    font-size: 83px;
+    color: #535353;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.hydrafacial-benefits h2 {
+    font-size: 107px;
+    color: #C6E3DC;
+    font-weight: 400;
+    font-family: 'migha';
+}
+
+.hydrafacial-at-a-glance p {
+    color: #535353;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.hydrafacial-at-a-glance p span {
+    font-weight: 600;
+    color: black;
+}
+
+.hydrafacial-benefits p {
+    color: #535353;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.hydrafacial-benefits p span {
+    font-weight: 600;
+    color: black;
+}
+
+.procedure-after-sec-holder {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 150px;
+}
+
+.procedure-after-sec {
+    padding: 80px 0px 30px 0px;
+}
+
+.procedure-sec {
+    width: 100%;
+}
+
+.aftercare {
+    width: 100%;
+}
+
+.procedure-sec h2 {
+    font-size: 107px;
+    color: #F2D2BD;
+    font-weight: 400;
+    font-family: 'migha';
+}
+
+.procedure-sec p {
+    color: #535353;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.procedure-sec p span {
+    font-weight: 600;
+    color: black;
+}
+
+.aftercare h2 {
+    font-size: 107px;
+    color: #C6E3DC;
+    font-weight: 400;
+    font-family: 'migha';
+}
+
+.aftercare p {
+    color: #535353;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.aftercare p span {
+    font-weight: 600;
+    color: black;
+}
+
+.skincare-detail h2 {
+    color: #535353;
+    font-weight: 300;
+    font-size: 83px;
+}
+
+.skincare-detail h1 {
+    color: #084434;
+    font-size: 107px;
+    font-family: 'Migha';
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.skincare-detail p {
+    color: #535353;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.skincare-sec-holder {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+}
+
+.faq-heading h1 {
+    font-size: 83px;
+    color: #535353;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.faq-content h6 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #535353;
+    margin-top: 25px;
+}
+
+.faq-content p {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(166 166 166);
+    margin-top: 25px;
+}
+
+.faq-sec {
+    padding: 80px 0px;
+}
+
+.visite-product-heading {
+    margin-bottom: 80px;
+}
+
+.visite-product {
+    padding: 80px 0px;
+}
+
+.visite-product-heading h1 {
+    color: #535353;
+    font-size: 83px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.visite-product-heading h2 {
+    color: #F2D2BD;
+    font-size: 127px;
+    font-family: 'Migha';
+    font-weight: 400;
+    text-align: center;
+}
+
+.video-sec iframe {
+    width: 100%;
+}
+
+.our-featured-sec-main {
+    padding: 155px 0px 80px 0px;
 }
