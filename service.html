@@ -7,8 +7,9 @@
     <title>SkinTastic</title>
     <link rel="stylesheet" href="assets/css/fonts.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
+
     <link rel="stylesheet" href="assets/css/service.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="assets/css/swiper.min.css" />
 </head>
 
@@ -67,39 +68,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="featured-box">
-                            <img src="assets/images/feature-4.jpg">
-                            <div class="feature-content">
-                                <h3>SIGNATURE FACIALS
-                                </h3>
-                                <a href="#">BOOK NOW!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="featured-box">
-                            <img src="assets/images/feature-3.jpg">
-                            <div class="feature-content">
-                                <h3>SIGNATURE FACIALS
-                                </h3>
-                                <a href="#">BOOK NOW!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="featured-box">
-                            <img src="assets/images/feature-4.jpg">
-                            <div class="feature-content">
-                                <h3>SIGNATURE FACIALS
-                                </h3>
-                                <a href="#">BOOK NOW!</a>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
-            <div class="featured-slider-nav-holder">
+            <!-- <div class="featured-slider-nav-holder">
                 <button type="button" class="feature-prev">
                     <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14.149" viewBox="0 0 8 14.149">
                         <path id="Path_26485" data-name="Path 26485"
@@ -115,7 +87,7 @@
                             fill="#084434" />
                     </svg>
                 </button>
-            </div>
+            </div> -->
         </div>
 
 
@@ -257,8 +229,8 @@
     <div class="video-sec">
         <div class="page-width">
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/i5Sq_8A_raQ?si=SZ69EgJ_CONZXj2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/i5Sq_8A_raQ?si=SZ69EgJ_CONZXj2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
 
         </div>
     </div>
@@ -329,7 +301,7 @@
     <script>
         var swiper = new Swiper(".featured-slide", {
             spaceBetween: 10,
-            slidesPerView: 4,
+            slidesPerView: 1,
             autoplay: {
                 delay: 5000,
                 disableOnInteraction: false,
@@ -344,15 +316,18 @@
 
             breakpoints: {
                 200: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                 },
                 640: {
-                    slidesPerView: 3,
+                    slidesPerView: 2,
                 },
                 768: {
-                    slidesPerView: 3,
+                    slidesPerView: 2,
                 },
-                1024: {
+                1200: {
+                    slidesPerView: 4,
+                },
+                3000: {
                     slidesPerView: 4,
                 },
             },

@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1280px) {
+    .hydra-fecial-img img {
+        position: inherit;
+    }
+    .hydra-fecial-sec-contant-holder {
+        flex-direction: column;
+    }
+    .hydra-fecial-detail {
+        margin: 0 auto;
+        text-align: center;
+    }
+}

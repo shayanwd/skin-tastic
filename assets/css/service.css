@@ -75,6 +75,7 @@
     color: #535353;
     font-size: 18px;
     margin-top: 20px;
+    line-height: 26px;
 }
 
 .hydrafacial-at-a-glance p span {
@@ -86,6 +87,7 @@
     color: #535353;
     font-size: 18px;
     margin-top: 20px;
+    line-height: 26px;
 }
 
 .hydrafacial-benefits p span {
@@ -122,6 +124,7 @@
     color: #535353;
     font-size: 18px;
     margin-top: 20px;
+    line-height: 26px;
 }
 
 .procedure-sec p span {
@@ -140,6 +143,7 @@
     color: #535353;
     font-size: 18px;
     margin-top: 20px;
+    line-height: 26px;
 }
 
 .aftercare p span {
@@ -191,13 +195,13 @@
 
 .faq-content p {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     color: rgb(166 166 166);
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .faq-sec {
-    padding: 80px 0px;
+    padding: 40px 0px 160px 0px;
 }
 
 .visite-product-heading {
@@ -226,6 +230,7 @@
 
 .video-sec iframe {
     width: 100%;
+    height: 600px;
 }
 
 .our-featured-sec-main {
