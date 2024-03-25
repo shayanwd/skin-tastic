@@ -262,16 +262,35 @@ section {
 }
 
 .cleint-review-holder {
-    display: flex;
-    column-gap: 20px;
+    display: grid;
+    column-gap: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    margin-top: 60px;
 }
 
 .customer-stories-sec {
     padding: 80px 0px;
 }
 
-.cleint-review-holder {
-    margin-top: 100px;
+.client-review {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.rev-number {
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    font-size: 261px;
+    font-family: 'Clash Display';
+    font-weight: 200;
+    z-index: -1;
+    color: #53535311;
 }
 
 .client-review h1 {
@@ -279,6 +298,13 @@ section {
     font-size: 35px;
     font-weight: 400;
     margin-bottom: 15px;
+    display: flex;
+    align-items: baseline;
+    gap: 80px;
+}
+
+.client-review h1 img {
+    width: 83px;
 }
 
 .client-review p {
@@ -491,4 +517,213 @@ section {
     color: #084434;
     font-size: 127px;
     font-family: 'Migha';
+}
+
+.rev-stars {
+    width: 110px;
+    margin-top: 5px;
+}
+
+.appointment-field-holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 90px;
+    row-gap: 50px;
+    margin-top: 40px;
+    max-width: 990px;
+}
+
+.appointment-field-holder fieldset {
+    width: 100%;
+    border: none;
+}
+
+.appointment-field-holder fieldset label {
+    color: #084434;
+    font-size: 14px;
+    font-family: 'Clash Display';
+    margin-bottom: 25px !important;
+    display: block;
+}
+
+.appointment-field-holder fieldset input {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #535353;
+    font-family: 'Clash Display';
+    border-bottom: 1px solid #084434;
+    padding-bottom: 15px;
+}
+
+.appointment-field-holder fieldset select {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #535353;
+    font-family: 'Clash Display';
+    border-bottom: 1px solid #084434;
+    padding-bottom: 15px;
+}
+
+.appointment-field-holder fieldset button {
+    all: unset;
+    cursor: pointer;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background: white;
+    font-family: 'Clash Display';
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.appointment-field-holder fieldset button:hover {
+    background-color: #084434;
+    color: white;
+}
+
+.blogs-sec {
+    padding: 40px 0;
+}
+
+.blog-box-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.blog-box {
+    width: 100%;
+}
+
+a.blog-box {
+    text-decoration: none;
+    color: inherit;
+}
+
+.blog-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.6s;
+}
+
+.blog-box-img {
+    width: 100%;
+    aspect-ratio: 1/0.5;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.blog-box:hover img {
+    transform: scale(1.05);
+}
+
+.blog-box h4 {
+    font-size: 16px;
+    font-family: 'Clash Display';
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #535353;
+}
+
+.blog-box p {
+    font-family: 'Clash Display';
+    font-size: 12px;
+    line-height: 20px;
+    color: #535353;
+}
+
+.map-img {
+    width: 100%;
+    padding: 0px 0 40px 0;
+}
+
+.map-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.footer {
+    background-color: #084434;
+    padding: 80px 0 0 0;
+}
+
+.footer-content {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.foot-item h4 {
+    color: #F2D2BD;
+    font-size: 32px;
+    font-weight: 500;
+    width: fit-content;
+    margin-bottom: 15px;
+}
+
+.foot-item p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-family: 'Clash Display';
+}
+
+.foot-item p svg {
+    width: 20px;
+    height: 20px;
+}
+
+.foot-item a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Clash Display';
+}
+
+.foot-item a svg {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-logo {
+    align-self: center;
+}
+
+.foot-item ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.foot-item ul li {
+    list-style: none;
+}
+
+.foot-bottom {
+    text-align: right;
+}
+
+.foot-bottom p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.foot-bottom {
+    padding: 30px 0;
+    margin-top: 30px;
+    border-top: 1px solid #F2D2BD;
 }
