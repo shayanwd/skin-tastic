@@ -1,12 +1,397 @@
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 1200px) {
+    .featured-slide .swiper-slide:hover {
+        width: 638px !important;
+        max-width: 638px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .hydra-fecial-sec-contant-holder {
+        /* flex-direction: column; */
+        gap: 20px;
+    }
     .hydra-fecial-img img {
         position: inherit;
+        margin: 0 auto;
+        display: block;
+    }
+    .hydra-fecial-img {
+        width: 100%;
+    }
+    .our-featured-sec-main {
+        padding: 40px 0px 40px 0px;
+    }
+    .featured-box h3 {
+        font-size: 25px;
+    }
+    .featured-box a {
+        margin: 10px auto 0 auto;
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+    .hydrafacial-at-a-glance h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .hydrafacial-benefits h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .hydrafacial-at-a-glance h2 {
+        font-size: 70px;
+    }
+    .hydrafacial-benefits h2 {
+        font-size: 70px;
+    }
+    .hydra-fecial-benefits-holder {
+        gap: 60px;
+    }
+    .skincare-detail h2 {
+        font-size: 60px;
+    }
+    .skincare-detail h1 {
+        font-size: 80px;
+        margin-top: 15px;
+    }
+    .skincare-detail p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+    .hydra-fecial-detail h1 {
+        font-size: 80px;
+    }
+    .hydra-fecial-detail p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .hydra-fecial-img img {
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+    .book-appointment h4 {
+        font-size: 60px;
+    }
+    .book-appointment h2 {
+        font-size: 80px;
+    }
+    .appointment-field-holder {
+        column-gap: 40px;
+        row-gap: 30px;
+        margin-top: 20px;
+    }
+    .visite-product-heading h1 {
+        font-size: 60px;
+    }
+    .visite-product-heading h2 {
+        color: #F2D2BD;
+        font-size: 80px;
+    }
+    .foot-item h4 {
+        font-size: 25px;
+    }
+    .footer-logo {
+        max-width: 200px;
+        width: 100%;
+    }
+    .footer-logo img {
+        width: 100%;
+    }
+    .featured-box {
+        height: inherit;
+        aspect-ratio: 1/1.5;
+    }
+    .banner-img {
+        width: 100%;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .hydra-fecial-detail {
+        margin: 0;
+        padding: 20px 0;
     }
     .hydra-fecial-sec-contant-holder {
         flex-direction: column;
+        gap: 20px;
     }
     .hydra-fecial-detail {
-        margin: 0 auto;
+        padding-bottom: 0;
+    }
+    .featured-box {
+        height: inherit;
+        aspect-ratio: 1/1;
+    }
+    .hydra-fecial-benefits-holder {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .hydrafacial-at-a-glance p span {
+        display: block;
+    }
+    .skincare-sec-holder {
+        flex-direction: column;
+    }
+    .skincare-sec-holder {
+        gap: 30px;
+    }
+    .faq-heading h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .faq-sec {
+        padding: 40px 0px 60px 0px;
+    }
+    .product-card-holder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .hydra-fecial {
+        padding: 40px 0 0 0;
+    }
+    .banner-contant-holder {
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+    .banner-img {
+        max-width: 400px;
+        display: none;
+    }
+    .our-featured-sec {
+        background-size: contain !important;
+        background-position: inherit;
+    }
+    .our-featured-sec::before {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .product-card-holder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+    .book-appointment {
+        padding: 60px 0;
+    }
+    .book-appointment h4 {
+        font-size: 20px;
+    }
+    .book-appointment h2 {
+        font-size: 50px;
+    }
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .footer-logo {
+        align-self: flex-start;
+    }
+    .footer {
+        padding: 60px 0 0 0;
+    }
+    .visite-product {
+        padding: 40px 0px;
+    }
+    .hydra-fecial-detail h1 {
+        font-size: 50px;
+    }
+    .hydrafacial-at-a-glance h1 {
+        font-size: 40px;
+    }
+    .hydrafacial-at-a-glance h2 {
+        font-size: 60px;
+    }
+    .hydrafacial-at-a-glance p {
+        font-size: 16px;
+        margin-top: 15px;
+        line-height: 22px;
+    }
+    .skincare-detail h2 {
+        font-size: 40px;
+    }
+    .skincare-detail h1 {
+        font-size: 60px;
+        margin-top: 15px;
+    }
+    .faq-heading h1 {
+        font-size: 40px;
+    }
+    .faq-content h6 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .visite-product-heading h1 {
+        font-size: 40px;
+    }
+    .visite-product-heading h2 {
+        font-size: 60px;
+    }
+    .visite-product-heading {
+        margin-bottom: 40px;
+    }
+    .banner-detail h2 {
+        font-size: 50px;
+    }
+    .banner-detail h3 {
+        font-size: 80px;
+    }
+    .banner-contant-holder {
+        align-items: flex-start;
+    }
+    .experience-detail h2 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .experience-detail h3 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .experience-detail p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .experience-contant-holder {
+        flex-direction: column;
+    }
+    .experience-img {
+        max-width: 500px;
+    }
+    .our-featured-contant-holder h1 {
+        font-size: 50px;
+    }
+    .our-featured-contant-holder h3 {
+        font-size: 80px;
+    }
+    .our-featured-sec {
+        padding: 40px 0;
+    }
+    .lets-shine-content-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+    .shine-img1 {
+        align-self: inherit;
+        max-width: 500px;
+        width: 100%;
+    }
+    .shine-img2 {
+        align-self: inherit;
+        max-width: 500px;
+        width: 100%;
+    }
+    .lets-shine-text h3 {
+        font-size: 80px;
+    }
+    .lets-shine-text h3 span {
+        font-size: 50px;
+        display: block;
+    }
+    .lets-shine-text .site-btn {
+        margin: 0;
+    }
+    .featured-slide .swiper-slide {
+        padding: 40px 0;
+    }
+    .customer-stories-contant h2 {
+        font-size: 50px;
+    }
+    .customer-stories-contant h1 {
+        font-size: 80px;
+    }
+    .customer-stories-contant p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .cleint-review-holder {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 60px;
+        margin-top: 40px;
+    }
+    .client-review {
+        height: fit-content;
+        gap: 0;
+    }
+    .client-review h1 img {
+        width: 50px;
+    }
+    .client-review h1 {
+        color: #535353;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        gap: 40px;
+    }
+    .rev-number {
+        font-size: 100px;
+    }
+    .client-review h4 {
+        font-size: 20px;
+    }
+    .blog-box-holder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .blog-box p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .blog-box h4 {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .footer {
+        padding: 40px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .appointment-field-holder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 40px;
+        row-gap: 30px;
+    }
+    .product-card-holder {
+        column-gap: 10px;
+    }
+    .visite-product-heading h2 {
+        font-size: 45px;
+    }
+    .foot-item h4 {
+        font-size: 20px;
+    }
+    .foot-item a {
+        gap: 5px;
+        font-size: 14px;
+    }
+    .foot-item p {
+        gap: 5px;
+        font-size: 14px;
+    }
+    .foot-bottom p {
         text-align: center;
+        font-size: 12px;
+    }
+    .blog-box-holder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .appointment-field-holder fieldset input {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .appointment-field-holder fieldset label {
+        font-size: 12px;
+        margin-bottom: 20px !important;
     }
 }

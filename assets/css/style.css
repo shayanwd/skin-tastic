@@ -13,6 +13,8 @@ html {
 
 section {
     padding: 0;
+    width: 100%;
+    overflow: hidden;
     margin: 0;
 }
 
@@ -211,6 +213,7 @@ section {
     background-image: url('/assets/images/brush-bg.svg');
     background-size: 160%;
     background-position: bottom;
+    background-repeat: no-repeat;
     padding: 80px 0px;
     position: relative;
 }
@@ -390,6 +393,14 @@ section {
     padding: 0 40px;
 }
 
+.feature-content p {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 20px;
+}
+
 .featured-box:hover .feature-content {
     opacity: 1;
 }
@@ -405,11 +416,6 @@ section {
 
 .featured-slide .swiper-slide {
     transition: 0.3s;
-}
-
-.featured-slide .swiper-slide:hover {
-    width: 638px !important;
-    max-width: 638px !important;
 }
 
 .featured-slider-nav-holder {

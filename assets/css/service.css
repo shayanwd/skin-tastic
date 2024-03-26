@@ -47,10 +47,29 @@
     font-family: 'migha';
 }
 
+.skincare-detail {
+    width: 100%;
+}
+
+.skincar-img {
+    width: 100%;
+}
+
+.skincar-img img {
+    width: 100%;
+}
+
 .hydra-fecial-benefits-holder {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     column-gap: 150px;
+    row-gap: 80px;
+    margin-bottom: 40px;
+}
+
+.hydra-fecial-benefits-holder .hydrafacial-at-a-glance:nth-child(even) h2 {
+    color: #C6E3DC;
 }
 
 .hydrafacial-benefits {
@@ -93,6 +112,7 @@
 .hydrafacial-benefits p span {
     font-weight: 600;
     color: black;
+    display: block;
 }
 
 .procedure-after-sec-holder {
@@ -226,6 +246,10 @@
     font-family: 'Migha';
     font-weight: 400;
     text-align: center;
+}
+
+.video-sec {
+    padding-bottom: 80px;
 }
 
 .video-sec iframe {
