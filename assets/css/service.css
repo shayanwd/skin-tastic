@@ -2,14 +2,17 @@
     display: flex;
 }
 
+.hydra-fecial {
+    margin-top: 40px;
+}
+
 .hydra-fecial-detail {
     width: 100%;
     max-width: 600px;
-    margin-top: 100px;
 }
 
 .hydra-fecial-detail h1 {
-    font-size: 107px;
+    font-size: 90px;
     color: #F2D2BD;
     font-weight: 400;
     font-family: 'Migha';
@@ -19,12 +22,20 @@
     line-height: 30px;
     color: #535353;
     font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hydra-fecial-img {
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 1/1;
 }
 
 .hydra-fecial-img img {
     width: 100%;
+    aspect-ratio: 1/1;
     max-width: 600px;
-    height: 600px;
+    /* height: 600px; */
     position: absolute;
     right: 0;
 }
@@ -258,5 +269,5 @@
 }
 
 .our-featured-sec-main {
-    padding: 155px 0px 80px 0px;
+    padding: 80px 0px 80px 0px;
 }
