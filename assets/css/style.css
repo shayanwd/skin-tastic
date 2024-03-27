@@ -356,6 +356,8 @@ section {
     font-weight: 700;
     color: white;
     text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .featured-box a {
@@ -396,9 +398,10 @@ section {
 .feature-content p {
     text-align: center;
     color: white;
-    margin: 20px 0;
+    margin: 20px auto;
     font-size: 18px;
     line-height: 20px;
+    max-width: 500px;
 }
 
 .featured-box:hover .feature-content {
